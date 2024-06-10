@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  #car-list,
+  #book-list-container,
+  #quiz-container {
+    margin-bottom: 20px;
+  }
+  
+  #book-list-container {
+    text-align: center;
+  }
+  
+
+  h2,
+  #car-list,
+  #book-list-container,
+  #quiz-container {
+    display: block;
+  }
+  
+  
+  #car-list li:hover {
+    color: red; 
+    cursor: pointer;
+  }
+  
+  
+  #book-list li:hover {
+    background-color: lightgray; 
+    cursor: pointer;
+  }
+  
+  
+  .question {
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .question:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+  }
+  
